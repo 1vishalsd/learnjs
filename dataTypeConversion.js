@@ -45,8 +45,36 @@ console.log(typeof foo);
 // const foo = 45;
 // const result = foo + "3";
 // console.log(result);
-
+/*
 let str1 = " hello";
 let str2 = " Raju";
 let str3 = str1 + str2;
 console.log(str3);
+
+console.log(true); // true
+console.log(+true); // 1
+*/
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);
+/*
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+*/
+
+let x = 3;
+const y = ++x;
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+// x2 is 4n; y2 is 4n
+console.log(y2, y);
