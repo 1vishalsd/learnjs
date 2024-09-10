@@ -1,4 +1,4 @@
-let score = null;
+/*let score = null;
 
 console.log(typeof score);
 console.log(typeof score);
@@ -26,3 +26,22 @@ let stringNumber = String(someNumber);
 console.log(stringNumber);
 
 console.log(typeof stringNumber);
+*/
+
+// -------------> Operations
+
+let value = 3;
+
+let negValue = -value;
+console.log(negValue);
+//  Dynamic and Weak typing
+/*
+let foo = 42;
+foo = "baar";
+foo = true;
+console.log(typeof foo);
+*/
+
+const foo = 45;
+const result = foo + "3";
+console.log(result);
