@@ -30,10 +30,10 @@ console.log(typeof stringNumber);
 
 // -------------> Operations
 
-let value = 3;
+// let value = 3;
 
-let negValue = -value;
-console.log(negValue);
+// let negValue = -value;
+// console.log(negValue);
 //  Dynamic and Weak typing
 /*
 let foo = 42;
@@ -42,6 +42,11 @@ foo = true;
 console.log(typeof foo);
 */
 
-const foo = 45;
-const result = foo + "3";
-console.log(result);
+// const foo = 45;
+// const result = foo + "3";
+// console.log(result);
+
+let str1 = " hello";
+let str2 = " Raju";
+let str3 = str1 + str2;
+console.log(str3);
