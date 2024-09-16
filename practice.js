@@ -1,30 +1,28 @@
-// Define the fruit type you want to check
-var currentFruit = " Orange "; // Change this to test different fruits
+// # Primitive Data Types
 
-// Use the currentFruit variable in the switch statement
-switch (
-  currentFruit.trim() // Trim spaces for accurate matching
-) {
-  case "Orange":
-    console.log("Oranges are $0.59 a pound.");
-    break;
-  case "Apples":
-    console.log("Apples are $0.32 a pound.");
-    break;
-  case "Bananas":
-    console.log("Bananas are $0.48 a pound.");
-    break;
-  case "Cherries":
-    console.log("Cherries are $3.00 a pound.");
-    break;
-  case "Mangos":
-    console.log("Mangoes are $0.56 a pound.");
-    break;
-  case "Papaya":
-    console.log("Papayas are $2.79 a pound.");
-    break;
-  default:
-    console.log(`Sorry, we are out of ${currentFruit}.`);
-}
+//  7 Types : String , Number , Boolean , Null , Undefined , Symbol , BigInt
 
-console.log("Is there anything else you'd like?");
+const score = false;
+
+const scoreValue = 1990;
+
+const isLoggedIn = false;
+
+const outsideTemp = null;
+
+let userEmail;
+
+//  symbol
+const id = Symbol("123");
+
+const anotherId = Symbol("123");
+
+console.log(id === anotherId);
+
+//  BigInt
+
+const bigNumber = 4545445544656654555n;
+
+//  Reference Type ( No Primitive ) :  Array , Object , Functions
+
+const heros = [" "];
