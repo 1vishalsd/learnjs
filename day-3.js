@@ -91,3 +91,14 @@ function gradeScore(score) {
   }
 }
 gradeScore(50);
+
+// Task 3
+
+var number = 90;
+var remainder = number % 2;
+const checkEvenOdd =
+  remainder == 0
+    ? console.log("Number is Even")
+    : console.log(" Number is Odd");
+
+// Task 4
