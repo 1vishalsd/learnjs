@@ -45,3 +45,15 @@ do {
 } while (w >= 1);
 
 console.log(factorial);
+
+// Task 4
+
+let r = 5;
+
+for (let row = 1; row <= r; row++) {
+  let pattern = "";
+  for (let col = 1; col <= row; row++) {
+    pattern += "*";
+  }
+  console.log(pattern);
+}
