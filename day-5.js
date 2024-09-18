@@ -50,3 +50,13 @@ const greeting = (name, age) => {
   return ` Mr. ${name}  i thing you are ${age} old `;
 };
 console.log(greeting("vishal", 21));
+
+//  Task 5
+
+const sayHello = () => {
+  return " Hello";
+};
+const greet = (helloMassage, name) => {
+  return console.log(helloMassage() + " " + name);
+};
+greet(sayHello, "Vishal");
