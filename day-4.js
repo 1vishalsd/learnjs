@@ -57,3 +57,5 @@ for (let row = 1; row <= r; row++) {
   }
   console.log(pattern);
 }
+
+// Task 5
