@@ -40,3 +40,29 @@ console.log(filterArr);
 const intialValue = 0;
 const reduceArr = arr.reduce((x, y) => x + y, intialValue);
 console.log(reduceArr);
+
+// Activity 4: Array Iteration
+//Task 10: Use a for loop to iterate over the array and log each element to the console.
+
+let array = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+// Task 11: Use the forEach method to iterate over the array and log each element to the console.
+
+array.forEach((element) => console.log(element));
+
+// Activity 5: Multi-dimensional Arrays
+// Task 12: Create a two-dimensional array (matrix) and log the entire array to the console.
+
+let arr2 = [
+  ["Banana", "Papaya", "Gauva"],
+  ["Charries", "Apple"],
+];
+console.log(arr2);
+
+// Task 13: Access and log a specific element from the two-dimensional array.
+
+console.log(arr2[0][1]);
