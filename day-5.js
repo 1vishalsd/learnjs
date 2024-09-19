@@ -60,3 +60,4 @@ const greet = (helloMassage, name) => {
   return console.log(helloMassage() + " " + name);
 };
 greet(sayHello, "Vishal");
+
